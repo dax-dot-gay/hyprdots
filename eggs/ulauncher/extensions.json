@@ -1,0 +1,37 @@
+{
+    "com.github.jack5github.ulauncher-steam": {
+        "id": "com.github.jack5github.ulauncher-steam",
+        "url": "https://github.com/jack5github/ulauncher-steam",
+        "updated_at": "2025-05-16T17:54:46.905094",
+        "last_commit": "361c96c7183654c3a1f6e08b548987a6a72b1ae5",
+        "last_commit_time": "2025-05-16T08:55:25"
+    },
+    "com.github.ooo-w.ulauncher-hypr-window-switcher": {
+        "id": "com.github.ooo-w.ulauncher-hypr-window-switcher",
+        "url": "https://github.com/oOo-w/ulauncher-hypr-window-switcher",
+        "updated_at": "2025-05-16T17:58:18.367819",
+        "last_commit": "d93e781dc3ef363c28168265ca43860e0aedcd19",
+        "last_commit_time": "2025-02-09T12:48:39"
+    },
+    "com.github.dankni95.ulauncher-playerctl": {
+        "id": "com.github.dankni95.ulauncher-playerctl",
+        "url": "https://github.com/Dankni95/ulauncher-playerctl",
+        "updated_at": "2025-05-16T17:59:14.010813",
+        "last_commit": "c2efafd66c3d60445a545f9f202b82202f93cd70",
+        "last_commit_time": "2022-03-23T21:18:25"
+    },
+    "com.github.lighttigerxiv.ulauncher-session-manager": {
+        "id": "com.github.lighttigerxiv.ulauncher-session-manager",
+        "url": "https://github.com/lighttigerXIV/ulauncher-session-manager",
+        "updated_at": "2025-05-16T18:01:09.580336",
+        "last_commit": "39218fddb79d86150c4624d96b1a162eba89c993",
+        "last_commit_time": "2023-05-23T08:14:57"
+    },
+    "com.github.melianmiko.ulauncher-nmcli": {
+        "id": "com.github.melianmiko.ulauncher-nmcli",
+        "url": "https://github.com/melianmiko/ulauncher-nmcli",
+        "updated_at": "2025-05-16T18:07:00.180345",
+        "last_commit": "13f226d83f8feac3cf6f73532cce1ffc23f42700",
+        "last_commit_time": "2024-10-11T14:18:16"
+    }
+}

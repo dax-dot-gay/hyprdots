@@ -17,3 +17,6 @@ paru -S --needed --skipreview - < resources/packages
 
 # Set shell to zsh
 chsh --shell $(which zsh) $USER
+
+sudo systemctl enable --now bluetooth
+systemctl --user enable --now ulauncher

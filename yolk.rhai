@@ -1,4 +1,5 @@
 import "configs/hypr" as hypr;
+import "configs/gtk" as gtk;
 import "theme" as theming;
 
 export const theme = theming::selected_theme;
@@ -8,6 +9,9 @@ export const data = #{
     hypr: hypr::config,
     hyfetch: #{
         preset: "lesbian"
+    },
+    ulauncher: #{
+        radius: "8px"
     }
 };
 
@@ -41,6 +45,18 @@ export const eggs = #{
     ghostty: #{
         targets: "~/.config/ghostty",
         templates: ["./**"]
+    },
+    gtk: #{
+        targets: gtk::generate_theme_target(theme_name),
+        unsafe_shell_hooks: #{
+            post_deploy: "~/.config/scripts/deploy.sh",
+            post_undeploy: "~/.config/scripts/undeploy.sh"
+        },
+        templates: ["deploy.sh", "undeploy.sh"]
+    },
+    ulauncher: #{
+        targets: "~/.config/ulauncher",
+        templates: ["./*.json", "./**/*.css"]
     }
 };
 

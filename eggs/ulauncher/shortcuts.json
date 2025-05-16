@@ -1,0 +1,52 @@
+{
+    "69da3386-6bd2-49a8-8ee5-59b96d6ee4ec": {
+        "id": "69da3386-6bd2-49a8-8ee5-59b96d6ee4ec",
+        "name": "Google Search",
+        "keyword": "g",
+        "cmd": "https://google.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/google-search-icon.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1747429578.2997196
+    },
+    "b28e9e0d-b050-4c64-bfa5-3cd2ddd329f1": {
+        "id": "b28e9e0d-b050-4c64-bfa5-3cd2ddd329f1",
+        "name": "Stack Overflow",
+        "keyword": "so",
+        "cmd": "https://stackoverflow.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1747429578.2997513
+    },
+    "0b3b90b2-174a-47ab-ac15-e9b8d239444a": {
+        "id": "0b3b90b2-174a-47ab-ac15-e9b8d239444a",
+        "name": "DuckDuckGo",
+        "keyword": "d",
+        "cmd": "https://duckduckgo.com/?q=%s",
+        "icon": "~/.config/assets/logos/duckduckgo.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1747431859.732966
+    },
+    "fbe2e986-930a-4d56-83ef-75d9d39f1ef7": {
+        "id": "fbe2e986-930a-4d56-83ef-75d9d39f1ef7",
+        "name": "Arch Wiki",
+        "keyword": "aw",
+        "cmd": "https://wiki.archlinux.org/index.php?search=%s",
+        "icon": "~/.config/assets/logos/arch.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1747431966.622815
+    },
+    "06570ac3-a040-48d0-8a71-ddb5b8f8c9b2": {
+        "id": "06570ac3-a040-48d0-8a71-ddb5b8f8c9b2",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1747429578.2997713
+    }
+}
