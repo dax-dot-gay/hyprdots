@@ -1,6 +1,6 @@
 // Using catppuccin & dracula as options
 export const themes = #{
-    mocha: #{
+    catppuccin_mocha: #{
         background: "#1e1e2e",          // Base
         background_accent: "#11111b",   // Crust
         background_paper: "#45475a",    // Surface1
@@ -11,7 +11,7 @@ export const themes = #{
         warning: "#fab387",             // Peach
         success: "#a6e3a1"              // Green
     },
-    macchiato: #{
+    catppuccin_macchiato: #{
         background: "#24273a",          // Base
         background_accent: "#181926",   // Crust
         background_paper: "#494d64",    // Surface1
@@ -22,7 +22,7 @@ export const themes = #{
         warning: "#f5a97f",             // Peach
         success: "#a6da95"              // Green
     },
-    frappe: #{
+    catppuccin_frappe: #{
         background: "#303446",          // Base
         background_accent: "#232634",   // Crust
         background_paper: "#51576d",    // Surface1
@@ -33,7 +33,7 @@ export const themes = #{
         warning: "#ef9f76",             // Peach
         success: "#a6d189"              // Green
     },
-    latte: #{
+    catppuccin_latte: #{
         background: "#eff1f5",          // Base
         background_accent: "#dce0e8",   // Crust
         background_paper: "#bcc0cc",    // Surface1
@@ -57,6 +57,6 @@ export const themes = #{
     },
 };
 
-export const theme_name = "mocha";
+export const theme_name = "catppuccin_mocha";
 
 export const selected_theme = themes[theme_name];

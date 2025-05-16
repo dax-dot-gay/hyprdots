@@ -11,4 +11,5 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+eval "$(starship init zsh)"
 hyfetch -C ~/.config/hyfetch/hyfetch.json

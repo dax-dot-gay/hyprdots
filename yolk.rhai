@@ -25,6 +25,22 @@ export const eggs = #{
             ".zshrc": "~/.zshrc",
         },
         main_file: ".zshrc"
+    },
+    starship_catppuccin: #{
+        targets: #{
+            "starship.toml": "~/.config/starship.toml"
+        },
+        enabled: theme_name.starts_with("catppuccin_")
+    },
+    starship_dracula: #{
+        targets: #{
+            "starship.toml": "~/.config/starship.toml"
+        },
+        enabled: theme_name == "dracula"
+    },
+    ghostty: #{
+        targets: "~/.config/ghostty",
+        templates: ["./**"]
     }
 };
 
