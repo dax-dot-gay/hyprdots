@@ -1,5 +1,6 @@
 import "configs/hypr" as hypr;
 import "configs/gtk" as gtk;
+import "configs/waybar" as waybar;
 import "theme" as theming;
 
 export const theme = theming::selected_theme;
@@ -12,7 +13,8 @@ export const data = #{
     },
     ulauncher: #{
         radius: "8px"
-    }
+    },
+    waybar: waybar::bars
 };
 
 export const eggs = #{
@@ -57,6 +59,15 @@ export const eggs = #{
     ulauncher: #{
         targets: "~/.config/ulauncher",
         templates: ["./*.json", "./**/*.css"]
+    },
+    waybar: #{
+        targets: #{
+            "colors.css": "~/.config/waybar/colors.css",
+            "style.css": "~/.config/waybar/style.css",
+            "bars": "~/.config/waybar/bars",
+            "bars.sh": "~/.config/scripts/bars.sh"
+        },
+        templates: ["colors.css", "bars/*.jsonc", "bars.sh"]
     }
 };
 
