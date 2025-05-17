@@ -3,7 +3,6 @@ ghostty
 ghostty-shell-integration
 ghostty-terminfo
 hyprlock
-waybar
 zellij
 yolk
 better-control-git
@@ -31,7 +30,6 @@ gvfs-wsdd
 udiskie
 cliphist
 overskride
-bluez
 file-roller
 hyprpolkitagent
 hyprpaper
@@ -45,3 +43,19 @@ sassc
 gtk-engine-murrine
 gnome-themes-extra
 haruna
+ulauncher
+otf-font-awesome
+wireplumber
+libgtop
+bluez
+bluez-utils
+ags-hyprpanel-git
+grimblast-git
+python
+python-pywal
+pacman-contrib
+power-profiles-daemon
+swww
+wf-recorder
+hyprsunset
+matugen-bin
