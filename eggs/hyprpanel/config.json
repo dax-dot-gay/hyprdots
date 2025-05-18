@@ -662,5 +662,6 @@
   "bar.customModules.cava.bars": 10,
   "bar.customModules.cava.showActiveOnly": true,
   "menus.dashboard.shortcuts.left.shortcut3.tooltip": "Equibop",
-  "menus.dashboard.shortcuts.left.shortcut3.command": "equibop"
+  "menus.dashboard.shortcuts.left.shortcut3.command": "equibop",
+  "menus.clock.weather.enabled": false
 }

@@ -18,7 +18,7 @@ export const data = #{
 export const eggs = #{
     hypr: #{
         targets: "~/.config/hypr",
-        templates: ["hyprland.conf"],
+        templates: ["hyprland.conf", "hyprlock.conf"],
     },
     hyfetch: #{
         targets: "~/.config/hyfetch",
@@ -65,7 +65,7 @@ export const eggs = #{
             "modules.scss": "~/.config/hyprpanel/modules.scss",
             "panel.sh": "~/.config/scripts/panel.sh"
         },
-        templates: ["panel.sh"]
+        templates: ["panel.sh", "config.json"]
     }
 };
 
